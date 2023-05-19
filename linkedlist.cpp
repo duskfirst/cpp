@@ -41,15 +41,6 @@ class LinkedList
             head = temp;
         }
 
-        // void InsertSteps(int x, int n)
-        // {
-        //     ListNode *temp = new ListNode(x);
-        //     ListNode *trav = list;
-        //     while(n--)
-        //     {
-
-        //     }
-        // }
 
         void display()
         {
