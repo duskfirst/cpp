@@ -25,6 +25,16 @@ class Vector2
         {
             return Multiply(other);
         }
+
+        bool operator==(const Vector2& other) const
+        {
+            return y == other.y && x == other.x;
+        }
+
+        bool operator!=(const Vector2& other) const
+        {
+            return y != other.y && x != other.x;
+        }
 };
 
 std::ostream& operator<<(std::ostream& stream, const Vector2& other )
